@@ -39,7 +39,7 @@ body {
 }
 .site-nav .link .current:hover,
 .site-nav .link .current:focus {
-    color: var(--brand-color);
+    color:green;
 }
 
 .site-nav .link {
@@ -112,7 +112,7 @@ background-color: var(--dark-background-color);
     
 .hero .button {
     color: var(--primary-white-color);
-    font-family: inherit;
+    font-family: var(--font-family);
     font-size: 16px;
     font-weight: 700;
     line-height: 1,9;     
@@ -221,12 +221,13 @@ font-size: 26px;
 font-weight: 700;
 line-height: 1,19px;
 }
-.address {
-    color: var(--primary-white-color);
+.map {
+    color: white;
+    font-family: var(--font-family);
     font-weight: var(--text-font-weight);
     line-height: 1,7;
     font-size: 14px;
 }
-.bottom .auth-nav {
+.bottom .auth-nav .list {
     color: var(--primary-white-color)
 }
