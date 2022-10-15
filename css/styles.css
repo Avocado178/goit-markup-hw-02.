@@ -1,0 +1,209 @@
+:root {
+    --brand-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-background-color: #f5f5f5;
+    --secondary-background-color: #F5F4FA;
+    --font-family: "Roboto", sans-serif;
+    --section-title-font-weight: 700;
+    --text-font-weight: 400;
+    --text-color: #757575;
+}
+
+body {
+    color: var(--brand-color);
+}
+
+.top-logo .web {
+        font: "Raleway", sans-serif;
+        color: var(--accent-color);
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1,19px;
+}
+.top-logo .studio {
+    font: "Raleway", sans-serif;
+    color: var(--brand-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1,19px;
+}
+
+.site-nav .link.current {
+    color: var(--brand-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1,15;
+}
+.site-nav .link.current:hover,
+.site-nav .link.current:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--brand-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1,15;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color);
+}
+
+.auth-nav .mail-link {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1,15;
+}
+.auth-nav .mail-link:hover,
+.auth-nav .mail-link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .tel-link {
+    color: #757575; 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1,15;
+}
+.auth-nav .tel-link:hover,
+.auth-nav .tel-link:focus {
+    color: var(--accent-color);
+}
+
+
+.section {
+    background-color: var(--primary-background-color);
+}
+.section-title {
+    color: var(--brand-color); 
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,17;
+    font-size: 36px; 
+}
+.section-title .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+.hero {
+background-color: #2F303A;
+}  
+
+.hero-title {
+    color: var(--primary-white-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1,45;
+}
+    
+.button {
+    color: var(--primary-white-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1,9;     
+}
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
+}
+.section {
+    background-color: var(--primary-background-color);
+}
+.section-title {
+    color: var(--brand-color); 
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,17;
+    font-size: 36px; 
+}
+.section-title .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.text-title {
+    color: var(--brand-color);
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,15;
+    font-size: 14px;
+}
+.text {
+    color: var(--text-color);
+    font-weight: var(--text-font-weight);
+    line-height: 1,7;
+    font-size: 14px;
+}
+.section {
+    background-color: var(--primary-background-color);
+}
+
+.section-title {
+    color: var(--brand-color);
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,17;
+    font-size: 36px;
+}
+.text {
+    color: var(--primary-white-color);
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,17;
+    font-size: 14px;
+}
+
+.section {
+    background-color: var(--secondary-background-color);
+}
+
+.photo-title {
+    color: var(--brand-color);
+    font-weight: 500;
+    line-height: 1,17;
+    font-size: 16px;
+}
+
+.text {
+    color: var(--text-color);
+    font-weight: var(--text-font-weight);
+    line-height: 1,17;
+    font-size: 16px;
+}
+.bottom-logo .web {
+    font: "Raleway", sans-serif;
+    color: var(--accent-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1,19px;
+}
+.bottom-logo .studio {
+font: "Raleway", sans-serif;
+color: var(--primary-white-color);
+font-size: 26px;
+font-weight: 700;
+line-height: 1,19px;
+}
+.address {
+    color: var(--text-color);
+    font-weight: var(--text-font-weight);
+    line-height: 1,7;
+    font-size: 14px;
+}
+
