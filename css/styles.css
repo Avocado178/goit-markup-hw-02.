@@ -79,13 +79,13 @@ body {
 .section {
     background-color: var(--primary-background-color);
 }
-.section-title {
+.hidden-title {
     color: var(--brand-color); 
     font-weight: var(--section-title-font-weight);
     line-height: 1,17;
     font-size: 36px; 
 }
-.section-title .visually-hidden {
+.hidden-title .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -98,18 +98,10 @@ body {
     margin: -1px;
 }
 
-
 .hero {
 background-color: var(--dark-background-color);
 }  
-
-.hero-title {
-    color: var(--primary-white-color);
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 1,45;
-}
-    
+ 
 .hero .button {
     color: var(--primary-white-color);
     font-family: var(--font-family);
@@ -139,13 +131,13 @@ background-color: var(--dark-background-color);
 .section {
     background-color: var(--primary-background-color);
 }
-.section-title {
+.button-section-title {
     color: var(--brand-color); 
     font-weight: var(--section-title-font-weight);
     line-height: 1,17;
     font-size: 36px; 
 }
-.section-title .visually-hidden {
+.button-section-title .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -157,6 +149,26 @@ background-color: var(--dark-background-color);
     clip-path: inset(50%);
     margin: -1px;
 }
+
+.poster-section-title {
+    color: var(--brand-color); 
+    font-weight: var(--section-title-font-weight);
+    line-height: 1,17;
+    font-size: 36px; 
+}
+.poster-section-title .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .text-title {
     color: var(--brand-color);
     font-weight: var(--section-title-font-weight);
