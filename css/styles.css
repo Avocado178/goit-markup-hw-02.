@@ -31,15 +31,8 @@ body {
     line-height: 1,19px;
 }
 
-.site-nav .link .current {
-    color: var(--brand-color);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1,15;
-}
-.site-nav .link .current:hover,
-.site-nav .link .current:focus {
-    color:green;
+.site-nav .link.current{
+     color:green;
 }
 
 .site-nav .link {
@@ -234,12 +227,14 @@ font-weight: 700;
 line-height: 1,19px;
 }
 .map {
-    color: white;
+    color: var(--primary-white-color);
     font-family: var(--font-family);
     font-weight: var(--text-font-weight);
     line-height: 1,7;
     font-size: 14px;
+    
 }
-.bottom .auth-nav .list {
+.bottom-mail-link,
+.bottom-tel-link {
     color: var(--primary-white-color)
 }
