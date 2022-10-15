@@ -31,10 +31,6 @@ body {
     line-height: 1,19px;
 }
 
-.site-nav .link.current{
-     color:green;
-}
-
 .site-nav .link {
     color: var(--brand-color);
     font-size: 14px;
@@ -46,56 +42,44 @@ body {
    color: var(--accent-color);
 }
 
-.auth-nav .mail-link {
+.site-nav .link.current{
+     color:green;
+}
+
+.mail-link {
     color: var(--accent-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1,15;
 }
-.auth-nav .mail-link:hover,
-.auth-nav .mail-link:focus {
-    color: var(--accent-color);
+.mail-link:hover,
+.mail-link:focus {
+    color: blueviolet;
 }
 
-.auth-nav .tel-link {
+.tel-link {
     color: #757575; 
     font-size: 14px;
     font-weight: 500;
     line-height: 1,15;
 }
-.auth-nav .tel-link:hover,
-.auth-nav .tel-link:focus {
+.tel-link:hover,
+.tel-link:focus {
     color: var(--accent-color);
-}
-
-
-.section {
-    background-color: var(--primary-background-color);
-}
-.hidden-title {
-    color: var(--brand-color); 
-    font-weight: var(--section-title-font-weight);
-    line-height: 1,17;
-    font-size: 36px; 
-}
-.hidden-title .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
 }
 
 .hero {
 background-color: var(--dark-background-color);
 }  
+.hero-title {
+    color: var(--primary-white-color); 
+    font-family: var(--font-family);
+    font-weight: 900;
+    line-height: 1,36;
+    font-size: 44px; 
+}
  
-.hero .button {
+.hero-button {
     color: var(--primary-white-color);
     font-family: var(--font-family);
     font-size: 16px;
@@ -103,53 +87,16 @@ background-color: var(--dark-background-color);
     line-height: 1,9;     
 }
 
-.hero .button:hover,
-.hero .button:focus {
-    color: var(--accent-color);
-}
-
-.button-list .button {
-    color: var(--brand-color);
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1,9;     
-}
-
-.button-list .button:hover,
-.button-list .button:focus {
+.hero-button:hover,
+.hero-button:focus {
     color: var(--accent-color);
 }
 
 .section {
     background-color: var(--primary-background-color);
 }
-.button-section-title {
-    color: var(--brand-color); 
-    font-weight: var(--section-title-font-weight);
-    line-height: 1,17;
-    font-size: 36px; 
-}
-.button-section-title .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
 
-.poster-section-title {
-    color: var(--brand-color); 
-    font-weight: var(--section-title-font-weight);
-    line-height: 1,17;
-    font-size: 36px; 
-}
-.poster-section-title .visually-hidden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -209,8 +156,25 @@ background-color: var(--dark-background-color);
     font-size: 16px;
 }
 
+.button-list .button {
+    color: var(--brand-color);
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1,9;     
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+    color: var(--accent-color);
+}
+
+.section {
+    background-color: var(--primary-background-color);
+}
+
 .contacts {
-    background-color: var(--dark-background-color)
+    background-color: var(--dark-background-color);
 }
 .bottom-logo .web {
     font: "Raleway", sans-serif;
@@ -236,5 +200,10 @@ line-height: 1,19px;
 }
 .bottom-mail-link,
 .bottom-tel-link {
-    color: var(--primary-white-color)
+    color: var(--primary-white-color);
 }
+.bottom-mail-link:focus,
+.bottom-tel-link:hover {
+    color: var(--accent-color);
+}
+
