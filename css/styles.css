@@ -4,6 +4,7 @@
     --primary-white-color: #FFFFFF;
     --primary-background-color: #f5f5f5;
     --secondary-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
     --font-family: "Roboto", sans-serif;
     --section-title-font-weight: 700;
     --text-font-weight: 400;
@@ -37,7 +38,7 @@ body {
 }
 .site-nav .link .current:hover,
 .site-nav .link .current:focus {
-    color: var(--accent-color);
+    color: var(--brand-color);
 }
 
 .site-nav .link {
@@ -98,7 +99,7 @@ body {
 
 
 .hero {
-background-color: #2F303A;
+background-color: var(--dark-background-color);
 }  
 
 .hero-title {
@@ -187,6 +188,10 @@ background-color: #2F303A;
     font-weight: var(--text-font-weight);
     line-height: 1,17;
     font-size: 16px;
+}
+
+.contacts {
+    background-color: var(--dark-background-color)
 }
 .bottom-logo .web {
     font: "Raleway", sans-serif;
