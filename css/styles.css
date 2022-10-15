@@ -79,7 +79,7 @@ background-color: var(--dark-background-color);
     font-size: 44px; 
 }
  
-.hero-button {
+.hero .button {
     color: var(--primary-white-color);
     font-family: var(--font-family);
     font-size: 16px;
@@ -87,8 +87,8 @@ background-color: var(--dark-background-color);
     line-height: 1,9;     
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero .button:hover,
+.hero .button:focus {
     color: var(--accent-color);
 }
 
