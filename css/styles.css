@@ -43,7 +43,7 @@ body {
 }
 
 .site-nav .link.current{
-     color:green;
+     color: var(--accent-color);
 }
 
 .mail-link {
@@ -80,7 +80,7 @@ background-color: var(--dark-background-color);
 }
  
 .hero .button {
-    color: var(--primary-white-color);
+    color: white;
     font-family: var(--font-family);
     font-size: 16px;
     font-weight: 700;
@@ -196,8 +196,9 @@ line-height: 1,19px;
     font-weight: var(--text-font-weight);
     line-height: 1,7;
     font-size: 14px;
-    font-style: normal, no italic;
+    font-style: normal;
 }
+
 .bottom-mail-link,
 .bottom-tel-link {
     color: var(--primary-white-color);
