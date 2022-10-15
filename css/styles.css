@@ -196,7 +196,7 @@ line-height: 1,19px;
     font-weight: var(--text-font-weight);
     line-height: 1,7;
     font-size: 14px;
-    font-style: no italics;
+    font-style: normal, no italic;
 }
 .bottom-mail-link,
 .bottom-tel-link {
