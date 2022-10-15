@@ -29,14 +29,14 @@ body {
     line-height: 1,19px;
 }
 
-.site-nav .link.current {
+.site-nav .link .current {
     color: var(--brand-color);
     font-size: 14px;
     font-weight: 500;
     line-height: 1,15;
 }
-.site-nav .link.current:hover,
-.site-nav .link.current:focus {
+.site-nav .link .current:hover,
+.site-nav .link .current:focus {
     color: var(--accent-color);
 }
 
@@ -115,10 +115,12 @@ background-color: #2F303A;
     font-weight: 700;
     line-height: 1,9;     
 }
+
 .button:hover,
 .button:focus {
     color: var(--accent-color);
 }
+
 .section {
     background-color: var(--primary-background-color);
 }
