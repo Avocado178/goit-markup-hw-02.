@@ -13,7 +13,7 @@
 body {
     color: var(--brand-color);
     font-family: var(--font-family);
-    background-color: var(--primary-background-color);
+    background-color: var(--primary-white-color);
     letter-spacing: 0.03em;
     font-size: 14px;
 }
@@ -26,7 +26,6 @@ body {
     line-height: 1.19;
 }
 
-.top-logo:hover,
 .top-logo:focus {
     color: var(--accent-color);
 }
@@ -48,10 +47,11 @@ body {
 .site-nav .link {
     font-weight: 500;
     line-height: 1.15;
+    color: var(--brand-color)
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus
+.site-nav .link:hover {
    color: var(--accent-color);
 }
 
@@ -60,9 +60,10 @@ body {
 }
 
 .mail-link {
-    color: #757575;
+    color: var(--text-color);
     font-weight: 500;
     line-height: 1.15;  
+    text-decoration: none;
 }
 
 .mail-link:hover,
@@ -71,10 +72,12 @@ body {
 }
 
 .tel-link {
-    color: #757575; 
+    color: var(--text-color);
     font-weight: 500;
     line-height: 1.15;
+    text-decoration: none;
 }
+
 .tel-link:hover,
 .tel-link:focus {
     color: var(--accent-color);
@@ -97,6 +100,8 @@ background-color: var(--dark-background-color);
     font-weight: 700;
     line-height: 1.9; 
     background: #2196F3;
+    cursor: pointer;
+    font-family: inherit;
 }
     
 .hero-button:hover,
@@ -119,12 +124,14 @@ background-color: var(--dark-background-color);
 
 .our-advantages .text-title {
     font-weight: var(--section-title-font-weight);
-    line-height: 1.15;    
+    line-height: 1.15; 
+    font-size: 14px;   
 }
 
 .our-advantages .text {
     font-weight: var(--text-font-weight);
     line-height: 1.7;
+    color: var(--text-color)
 }
 
 .our-services .section-title {
@@ -136,19 +143,21 @@ background-color: var(--dark-background-color);
 
 .our-team {
     background-color: var(--secondary-background-color);
+    line-height: 1.17;
+    font-size: 16px;
 }
 
 .our-team .photo-title {
     font-weight: 500;
     line-height: 1.17;
     font-size: 16px;
-}
+ }
 
 .our-team .text {
     color: var(--text-color);
     font-weight: var(--text-font-weight);
-    line-height: 1.17;
-    font-size: 16px;
+    line-height: 1.17; 
+    font-size: 16px;   
 }
 
 .our-team .behind-photos {
@@ -164,6 +173,7 @@ background-color: var(--dark-background-color);
     color: var(--primary-white-color);
     font-style: normal;
     background-color: rgba(47, 48, 58, 1);
+    text-decoration: none;
 }
 
 .bottom-logo {
@@ -181,15 +191,19 @@ color: var(--accent-color)
     color: var(--primary-white-color);
     line-height: 1.7;
     font-style: normal;
+    text-decoration: none;
 }
 
 .bottom-mail-link,
 .bottom-tel-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
+    text-decoration: none;
 }
 
 .bottom-mail-link:focus,
+.bottom-mail-link:hover,
+.bottom-tel-link:focus,
 .bottom-tel-link:hover {
     color: var(--accent-color);
 }
@@ -214,12 +228,28 @@ color: var(--accent-color)
 .filter-button {
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.63;      
+    line-height: 1.63;  
+    cursor: pointer;
+    font-family: inherit;    
 }
     
 .filter-button:hover,
 .filter-button:focus {
-    color: var(--accent-color);
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
 }
 
+.photo-title {
+    font-weight: var(--section-title-font-weight);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
+.behind-photos .text {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+}
