@@ -39,24 +39,26 @@ body {
     list-style: none;
 }
 
+.link:focus,
+.link:hover{
+    color: var(--accent-color)   
+}
+
 .list {
     text-decoration: none;
     list-style: none; 
 }
 
-.site-nav .link {
+.site-nav .list .link {
     font-weight: 500;
     line-height: 1.15;
     color: var(--brand-color)
 }
 
-.site-nav .link:focus
-.site-nav .link:hover {
-   color: var(--accent-color);
-}
-
-.site-nav .link.current{
-     color: var(--accent-color);
+.site-nav .list .link .current{
+    font-weight: 500;
+    line-height: 1.15; 
+    color: var(--accent-color);
 }
 
 .mail-link {
@@ -86,6 +88,7 @@ body {
 .hero {
 background-color: var(--dark-background-color);
 }  
+
 .hero-title {
     color: var(--primary-white-color); 
     font-family: var(--font-family);
@@ -147,6 +150,13 @@ background-color: var(--dark-background-color);
     font-size: 16px;
 }
 
+.our-team .section-title {
+    color: var(--brand-color);
+    font-weight: var(--section-title-font-weight);
+    line-height: 1.17;
+    font-size: 36px;
+}
+
 .our-team .photo-title {
     font-weight: 500;
     line-height: 1.17;
@@ -168,7 +178,6 @@ background-color: var(--dark-background-color);
     background-color: var(--primary-white-color);
 }
 
-
 .bottom-contacts { 
     color: var(--primary-white-color);
     font-style: normal;
@@ -183,6 +192,7 @@ background-color: var(--dark-background-color);
     font-weight: 700;
     line-height: 1.19;
 }
+
 .bottom-logo .bottom-web {
 color: var(--accent-color)
 }
@@ -199,6 +209,7 @@ color: var(--accent-color)
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
+    line-height: 1.7;
 }
 
 .bottom-mail-link:focus,
@@ -206,10 +217,6 @@ color: var(--accent-color)
 .bottom-tel-link:focus,
 .bottom-tel-link:hover {
     color: var(--accent-color);
-}
-
-.portfolio {
-    background-color: var(--primary-background-color);
 }
 
 .portfolio .filter-list {
@@ -230,7 +237,8 @@ color: var(--accent-color)
     font-weight: 500;
     line-height: 1.63;  
     cursor: pointer;
-    font-family: inherit;    
+    font-family: inherit; 
+    letter-spacing: inherit;   
 }
     
 .filter-button:hover,
